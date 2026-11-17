@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment secrets and credentials
+.env
+*.env.local
+
+# SQLite Database
+app.db
+*.sqlite
+*.sqlite3
+
+# Uploads and temporary files
+uploads/
+scratch/
+.pytest_cache/
+
+# Additional database files
+*.db
+*.db-journal
+
+# Python coverage
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
